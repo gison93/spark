@@ -61,7 +61,7 @@ module Jekyll
       rendered_code = formatter.format(lexer.lex(code))
 
       hint = "<div><small>Find full example code at " \
-        "\"examples/src/main/#{snippet_file}\" in the Spark repo.</small></div>"
+        "\"examples/src/main/#{snippet_file}\" in the <a href="https://github.com/apache/spark">Spark repo</a>.</small></div>"
 
       rendered_code + hint
     end
